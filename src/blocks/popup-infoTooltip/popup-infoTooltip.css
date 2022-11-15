@@ -1,0 +1,35 @@
+.popup_infoTooltip {
+    margin-top: 150px;
+}
+
+.popup-foto_infoTooltip{
+    width: 120px;
+    height: 120px;
+    margin: 60px auto 150px;
+    position: absolute;
+}
+
+.popup__title_infoTooltip {
+    width: 358px;
+    height: 58px;
+    margin: 212px 36px 60px;
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.popup__submit-button_type-infoTooltip {
+    background-color: transparent;
+}
+
+.popup__submit-button_type-infoTooltip:enabled:hover{
+    pointer-events: none;
+    background-color: transparent;
+}
+
+

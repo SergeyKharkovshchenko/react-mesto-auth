@@ -1,0 +1,35 @@
+.popup_login {
+    margin-top: 150px;
+}
+
+.popup__title_login {
+    color: white;
+    margin-left: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.popup__form-login {
+    background-color: black;
+    border: none;
+    height: auto;
+}
+
+.popup__submit-button_type-login {
+    color: black;
+    background-color: #FFFFFF;
+    margin-top: 216px;
+    width: 358px;
+    height: 50px;
+}
+
+.popup__submit-button_type-login:enabled:hover {
+    background-color: #FFFFFF;
+}
+
+.popup__close_type_login{
+    display: none;
+}

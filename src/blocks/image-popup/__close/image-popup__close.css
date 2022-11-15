@@ -1,0 +1,10 @@
+@media screen and (max-width:320px) {
+    .image-popup__close {
+        /* margin-left: 224px;
+        margin-bottom: 0; */
+        margin-left: calc(100% - 16px);
+        margin-bottom: 16px;    
+    }
+}
+
+

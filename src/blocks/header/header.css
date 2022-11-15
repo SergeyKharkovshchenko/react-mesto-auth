@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 880px;
+    min-height: 74px;
+    margin: 45px auto 0;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid rgba(84,84,84, .7);
+}
+
+
+@media screen and (max-width:767px) {
+    .header {
+        width: 320px;
+        min-height: 56px;
+        margin: 38.25px auto;
+    }
+}
+
+.header__data {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    
+}
+
+.header_user {
+margin: 0;
+align-self: center;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+margin-right: 24px;
+}

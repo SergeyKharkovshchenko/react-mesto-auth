@@ -1,0 +1,23 @@
+.popup__error {
+    min-height: 12px;
+    margin: 0 36px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.52px;
+    color: #FF0000;
+    width: 358px;
+    height: 32px;
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    z-index: 2;
+}
+
+@media screen and (max-width:550px) {
+    .popup__error {
+        margin: 0 22px;
+        width: 238px;
+    }
+}

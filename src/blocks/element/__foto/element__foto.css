@@ -1,0 +1,10 @@
+.element__foto{
+    overflow: hidden;
+    height: 282px;
+    width: 283px;
+    object-fit: cover;
+}
+
+.element__foto:hover {
+    cursor: pointer;
+}

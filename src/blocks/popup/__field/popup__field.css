@@ -1,0 +1,26 @@
+.popup__field {
+    width: 358px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid rgba(84,84,84, .2);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-bottom: 14px;
+    margin-bottom: 0;
+}
+
+
+@media screen and (max-width:550px) {
+    .popup__field {
+        width: 238px;
+    }
+}
+
+.popup__error_visible.popup__field{
+    border-bottom: 1px solid red;
+}

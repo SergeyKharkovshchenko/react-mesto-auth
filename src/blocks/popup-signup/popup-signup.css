@@ -1,0 +1,56 @@
+.popup_register {
+    margin-top: 150px;
+}
+
+.popup__title_register {
+    color: white;
+    margin-left: auto;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+}
+
+.popup__form-register {
+    background-color: black;
+    border: none;
+    height: auto;
+}
+
+.popup__submit-button_type-register {
+    color: black;
+    background-color: #FFFFFF;
+    margin-top: 216px;
+    width: 358px;
+    height: 50px;
+}
+
+.popup__submit-button_type-register:enabled:hover {
+    background-color: #FFFFFF;
+}
+
+input.popup__field-register {
+color: #CCCCCC!important;
+padding: 10px;
+color-scheme: dark;
+}
+
+.popup__close_type_register{
+    display: none;
+}
+
+.link {
+text-decoration: none;
+color: #A9A9A9;
+background-color: transparent;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+
+.register__link {
+    margin: 15px auto;
+    }

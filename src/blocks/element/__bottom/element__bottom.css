@@ -1,0 +1,7 @@
+.element__bottom {
+    max-width: 246px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 21px;
+    align-items: center;
+}

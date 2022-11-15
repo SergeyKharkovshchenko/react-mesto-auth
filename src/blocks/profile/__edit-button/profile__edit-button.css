@@ -1,0 +1,27 @@
+.profile__edit-button {
+    background-image: url("../../../images/smallPen.svg");
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+    background-position: center;
+    margin-left: 18px;
+    background-color: black;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #FFFFFF;
+}
+
+
+@media screen and (max-width:767px) {
+    .profile__edit-button {
+        margin-right: 10px;
+        margin-left: 0;
+        background-size: 7.5px 7.5px;
+        width: 18px;
+        height: 18px;
+    }
+}
+
+.profile__edit-button:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}

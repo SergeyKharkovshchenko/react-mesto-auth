@@ -1,0 +1,14 @@
+.image-popup__foto{
+    overflow: auto;
+    max-width: 75vw;
+    max-height: 75vh;
+}
+
+
+/* @media screen and (max-width:550px) {
+    .image-popup__foto {
+        width: 240px;
+        height: fit-content;
+        margin: 16px auto 0 auto;
+    }
+} */

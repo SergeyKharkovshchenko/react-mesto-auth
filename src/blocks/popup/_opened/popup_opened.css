@@ -1,0 +1,22 @@
+  .popup_opened{
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  overflow: visible;
+  animation: fade-in 200ms;
+  justify-content: center;
+  display: flex;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+

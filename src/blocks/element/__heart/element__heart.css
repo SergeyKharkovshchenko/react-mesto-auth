@@ -1,0 +1,23 @@
+.element__heart {
+    width: 28px;
+    height: 20px;
+    background-image: url("../../../images/white_like.svg");
+    background-repeat: no-repeat;
+    background-size: 22px 19px;
+    background-position: center;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: auto auto 0 auto;
+}
+
+.element__heart:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.element__heart-and-counter{
+    display: flex;
+    flex-direction: column;
+}
+

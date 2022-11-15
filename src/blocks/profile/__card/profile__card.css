@@ -1,0 +1,38 @@
+.profile__card {
+    display: flex;
+    min-height: 120px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    width: 120px;
+    background-color: transparent;
+    border: none;
+}
+
+@media screen and (max-width:767px) {
+    .profile__card {
+        flex-direction: column;
+        height: fit-content;
+    }
+}
+
+.profile__card:hover>.profile__avatar {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.profile__card .profile__hoverImg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.profile__card:hover .profile__hoverImg {
+    display: block;
+    width: 26px;
+    height: 26px;
+    margin: 47px;
+}

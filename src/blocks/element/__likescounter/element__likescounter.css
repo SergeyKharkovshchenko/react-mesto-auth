@@ -1,0 +1,13 @@
+.element__likescounter{
+ color: black;
+ width: 10px;
+height: 13px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+margin: 3px auto auto auto;
+padding: 0;
+}
+
