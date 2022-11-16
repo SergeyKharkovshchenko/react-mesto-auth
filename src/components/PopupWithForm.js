@@ -16,7 +16,7 @@ function PopupWithForm({
       <img className={`popup-foto_${name}`} src={picture} />
       <form
         className={`popup__container popup__form-${name}`}
-        noValidate
+        // noValidate
         onSubmit={onSubmit}
       >
         <fieldset className={`popup__set popup__form-${name}`} name="AddForm">

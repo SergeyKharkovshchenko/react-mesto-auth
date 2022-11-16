@@ -9,7 +9,7 @@ function InfoTooltip(props) {
         isOpen={props.isOpen}
         onClose={props.onClose}
         picture={props.message != 'fail' ? success : fail}
-        title={props.message != 'fail' ? 'Вы успешно зарегистрировались!' : 'Что-то пошло не так! Попробуйте ещё раз.'}
+        title={props.message != 'fail' ? props.successMessage : props.failMessage}
       >
       </PopupWithForm>
       );

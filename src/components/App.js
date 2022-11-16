@@ -34,8 +34,8 @@ const App = () => {
     cbCheckToken();
   }, []);
 
-  useEffect(() => {
-    api
+    useEffect(() => {
+    loggedIn && api
       .getUserAndCards()
       .then(([userData, cardData]) => {
         setCards(cardData);
@@ -44,10 +44,10 @@ const App = () => {
       .catch((err) => {
         console.log(err);
       });
-  }, []);
+  }, [loggedIn]);
 
   useEffect(() => {
-    api
+    loggedIn && api
       .getUserInfo()
       .then((userData) => {
         setCurrentUser(userData);
@@ -55,7 +55,8 @@ const App = () => {
       .catch((err) => {
         console.log(err);
       });
-  }, []);
+  }, [loggedIn]);
+
 
   const cbAuthentificate = useCallback((data, email) => {
     setLoggedIn(true);
@@ -76,8 +77,8 @@ const App = () => {
       }
       setLoggedIn(true);
       setUserEmail(user.data.email);
-    } catch {
-    } finally {
+    } catch (error) {console.log(`Ошибка: ${error}`)}
+         finally {
       setLoading(false);
     }
   }, []);
@@ -282,6 +283,8 @@ const App = () => {
           isOpen={isInfoTooltipPopupOpen}
           onClose={closeAllPopups}
           message={tooltipMessage}
+          successMessage='Вы успешно зарегистрировались!'
+          failMessage='Что-то пошло не так! Попробуйте ещё раз.'
         />
 
         <ImagePopup card={selectedCard} isOpen="" onClose={closeAllPopups} />
