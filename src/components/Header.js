@@ -9,18 +9,18 @@ function Header({ onLogout, email }) {
         <div className="header__data">
           <p className="header_user">{email}</p>
           <button onClick={onLogout} className="link">
-            Выйти
+            Log out
           </button>
         </div>
       </Route>
       <Route path="/signup">
         <Link className="link" to="signin">
-          Войти
+          Sign in
         </Link>
       </Route>
       <Route exact path="/signin">
         <Link className="link" to="signup">
-          Зарегистрироваться
+          Sign up
         </Link>
       </Route>
     </header>

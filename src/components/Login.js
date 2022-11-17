@@ -42,10 +42,10 @@ if (isLoggedIn) {
     return (
     <PopupWithForm
       name="login"
-      title="Вход"
+      title="Sign in"
       isOpen={true}
       // onClose={props.onClose}
-      buttonText="Войти"
+      buttonText="Confirm"
       onSubmit={(e) => cbSubmit(e)}
     >
       <input
@@ -70,7 +70,7 @@ if (isLoggedIn) {
         minLength={2}
         maxLength={200}
         required
-        placeholder="Пароль"
+        placeholder="Password"
         value={userData.password || ''}
         onChange={cbChange}
       />

@@ -33,14 +33,14 @@ const cbSubmit = useCallback (event => {
     return (
     <PopupWithForm
         name="register"
-        title="Регистрация"
+        title="Sign up"
         isOpen={true}
         // onClose={onClose}
-        buttonText="Зарегистрироваться"
+        buttonText="Confirm"
         onSubmit={(e) => cbSubmit(e)}
         reg_link=
           <Link className="link register__link" to="./signin">
-          Уже зарегистрированы? Войти
+          Have you already been signed up? Sign in
         </Link>
         
       >
@@ -64,7 +64,7 @@ const cbSubmit = useCallback (event => {
           minLength={2}
           maxLength={200}
           required
-          placeholder="Пароль"
+          placeholder="Password"
           value={formData.password || ''}
           onChange={cbChange} />
         <span className="popup__error edit-job-error"></span>

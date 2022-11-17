@@ -16,10 +16,10 @@ function handleSubmit(e) {
   return (
     <PopupWithForm
       name="avatar"
-      title="Обновить аватар"
+      title="Update user pic"
       isOpen={props.isOpen}
       onClose={props.onClose}
-      buttonText="Сохранить"
+      buttonText="Save"
       onSubmit={(e) => handleSubmit(e)}
     >
       <input
@@ -29,7 +29,7 @@ function handleSubmit(e) {
         className="popup__field popup__field-for-name popup__field-for-name_type_avatar"
         minLength={2}
         required
-        placeholder="Ссылка на аватар"
+        placeholder="Link to new picture"
         ref={inputRef}
       />
       <span className="popup__error avatar-name-error" />

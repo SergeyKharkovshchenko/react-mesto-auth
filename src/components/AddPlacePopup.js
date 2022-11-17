@@ -28,10 +28,10 @@ function AddPlacePopup(props) {
 
         <PopupWithForm
           name="add"
-          title="Новое место"
+          title="New card"
           isOpen={props.isOpen}
           onClose={props.onClose}
-          buttonText = "Создать"
+          buttonText = "Create"
           onSubmit={(e)=>handleSubmit(e)}
         >
           <input
@@ -42,7 +42,7 @@ function AddPlacePopup(props) {
             minLength={2}
             maxLength={30}
             required
-            placeholder="Название"
+            placeholder="Name"
             value={name || ''}
             onChange = {handleNameChange}
           />
@@ -53,7 +53,7 @@ function AddPlacePopup(props) {
             id="add-job"
             className="popup__field popup__field-for-job popup__field-for-job_type_add"
             required
-            placeholder="Ссылка на картинку"
+            placeholder="Link to picture"
             value={link || ''}
             onChange = {handleLinkChange}
           />

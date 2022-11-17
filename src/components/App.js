@@ -283,8 +283,8 @@ const App = () => {
           isOpen={isInfoTooltipPopupOpen}
           onClose={closeAllPopups}
           message={tooltipMessage}
-          successMessage='Вы успешно зарегистрировались!'
-          failMessage='Что-то пошло не так! Попробуйте ещё раз.'
+          successMessage='Successful sign up!'
+          failMessage='Something went wrong! Please try again.'
         />
 
         <ImagePopup card={selectedCard} isOpen="" onClose={closeAllPopups} />
